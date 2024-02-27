@@ -23,7 +23,7 @@ export function HomePage() {
   }
 
   return (
-    <div className="flex justify-center pt-10 mx-auto h-screen w-screen">
+    <div className="flex justify-center pt-10 mx-auto ">
       { isError && <p className="text-center text-red-600">Something went wrong...</p> }
 
       <div className="relative w-[560px]">
